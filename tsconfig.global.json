@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "tsBuildInfoFile": "node_modules/.cache/global.tsbuildinfo"
+  },
+  "references": [
+    { "path": "src/tsconfig.esm.json" },
+    { "path": "src/tsconfig.cjs.json" }
+  ]
+}

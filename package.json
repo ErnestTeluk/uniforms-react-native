@@ -1,0 +1,26 @@
+{
+  "name": "uniforms-react-native",
+  "author": "Ernest Teluk",
+  "private": true,
+  "license": "MIT",
+  "main": "./src/cjs/index.js",
+  "module": "./src/esm/index.js",
+  "files": [
+    "src/cjs/*.d.ts",
+    "src/cjs/*.js",
+    "src/esm/*.d.ts",
+    "src/esm/*.js"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^17.0.0 || ^16.8.0"
+  },
+  "scripts": {
+    "build": "tsc --build --incremental tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "engines": {
+    "npm": ">=7.0.0"
+  }
+}
